@@ -145,7 +145,8 @@ jbyteArray stoJstring(JNIEnv* env, const char* pat,int len) {
 	jsize alen = (*env)->GetArrayLength(env, bytes);
 	return bytes;
 }
-jstring Java_net_bither_util_NativeUtil_compressBitmap(JNIEnv* env,
+
+jstring Java_com_xiaoqi_libjpegcompress_ImageUtils_compressBitmap(JNIEnv* env,
 		jobject thiz, jobject bitmapcolor, int w, int h, int quality,
 		jbyteArray fileNameStr, jboolean optimize) {
 

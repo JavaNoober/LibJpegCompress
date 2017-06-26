@@ -39,7 +39,7 @@ include $(PREBUILT_SHARED_LIBRARY)
 
 
 include $(CLEAR_VARS)
-LOCAL_MODULE    := bitherjni
+LOCAL_MODULE    := mylibjpeg
 LOCAL_SRC_FILES := bitherlibjni.c
 LOCAL_SHARED_LIBRARIES := libjpegbither 
 LOCAL_LDLIBS := -ljnigraphics -llog  
