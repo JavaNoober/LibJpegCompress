@@ -9,6 +9,6 @@ public class MyApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		isSuppoertLibjpeg = ImageUtils.isSupportLibJpeg();
+//		isSuppoertLibjpeg = ImageUtils.isSupportLibJpeg();
 	}
 }

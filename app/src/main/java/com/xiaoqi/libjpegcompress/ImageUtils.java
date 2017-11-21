@@ -23,6 +23,7 @@ public class ImageUtils {
 		try {
 			System.loadLibrary("jpegbither");
 			System.loadLibrary("mylibjpeg");
+			MyApplication.isSuppoertLibjpeg = true;
 		}catch (UnsatisfiedLinkError error){
 			MyApplication.isSuppoertLibjpeg = false;
 		}

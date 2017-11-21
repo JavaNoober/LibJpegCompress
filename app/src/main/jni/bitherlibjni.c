@@ -146,7 +146,7 @@ jbyteArray stoJstring(JNIEnv* env, const char* pat,int len) {
 	return bytes;
 }
 
-jboolean Java_com_xiaoqi_libjpegcompress_ImageUtils_compressBitmap(JNIEnv* env,
+jstring Java_com_xiaoqi_libjpegcompress_ImageUtils_compressBitmap(JNIEnv* env,
 		jobject thiz, jobject bitmapcolor, int w, int h, int quality,
 		jbyteArray fileNameStr, jboolean optimize) {
 
@@ -191,11 +191,9 @@ jboolean Java_com_xiaoqi_libjpegcompress_ImageUtils_compressBitmap(JNIEnv* env,
 	if(resultCode==0){
 		jstring result=(*env)->NewStringUTF(env, error);
 		error=NULL;
-		//return result;
-		return false;
+		return result;
 	}
-	//return (*env)->NewStringUTF(env, "1"); //success
-	return true;
+	return (*env)->NewStringUTF(env, "1"); //success
 }
 
 
