@@ -1,3 +1,5 @@
+基于此libjpeg的图片压缩框架，欢迎大家使用[!https://github.com/JavaNoober/Light]{https://github.com/JavaNoober/Light}
+
 # LibJpegCompress
 通过libjpeg来压缩图片，抛弃了原生的bitmap方法，达到了与微信、qq的效果
 工具类已经封装好，自行调用即可
