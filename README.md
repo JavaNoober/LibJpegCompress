@@ -1,4 +1,10 @@
-基于此libjpeg的图片压缩框架，欢迎大家使用[https://github.com/JavaNoober/Light](https://github.com/JavaNoober/Light)
+基于此libjpeg的图片压缩框架Light，
+ * 1:图片的旋转缩放
+ * 2:图片压缩
+ * 3:可以配合RxJava2使用
+欢迎大家使用[https://github.com/JavaNoober/Light](https://github.com/JavaNoober/Light)
+
+如何来编译[http://blog.csdn.net/qq_25412055/article/details/53878655](http://blog.csdn.net/qq_25412055/article/details/53878655)
 
 # LibJpegCompress
 通过libjpeg来压缩图片，抛弃了原生的bitmap方法，达到了与微信、qq的效果
